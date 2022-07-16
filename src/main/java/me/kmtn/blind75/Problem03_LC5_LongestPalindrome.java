@@ -3,7 +3,7 @@ package me.kmtn.blind75;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 //https://leetcode.com/problems/longest-palindromic-substring/
-public class Problem3_LC5_LongestPalindrome {
+public class Problem03_LC5_LongestPalindrome {
     static public String longestPalindrome(String s) {
         int start = 0, end = 0;
         for (int i = 0; i < s.length(); i++) {

@@ -7,7 +7,7 @@ import static me.kmtn.blind75.ListNode.linkedList;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 //https://leetcode.com/problems/merge-two-sorted-lists/
-public class Problem8_LC21_MergeTwoLists {
+public class Problem08_LC21_MergeTwoLists {
     static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode dummy = new ListNode();
         ListNode head = dummy;

@@ -6,7 +6,7 @@ import java.util.Set;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 //https://leetcode.com/problems/longest-substring-without-repeating-characters/
-public class Problem2_LC3_LongestSubstring {
+public class Problem02_LC3_LongestSubstring {
     static public int lengthOfLongestSubstring(String s) {
         Set<Character> chars = new HashSet<>();
         int longestSubstring = 0;

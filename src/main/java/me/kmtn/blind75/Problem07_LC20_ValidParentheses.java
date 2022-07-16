@@ -5,7 +5,7 @@ import java.util.*;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 //https://leetcode.com/problems/valid-parentheses/
-public class Problem7_LC20_ValidParentheses {
+public class Problem07_LC20_ValidParentheses {
     static Set<Character> openers = new HashSet<>();
     static Map<Character, Character> closers = new HashMap<>();
     static {

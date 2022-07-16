@@ -9,7 +9,7 @@ import static java.util.Collections.emptyList;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 //https://leetcode.com/problems/3sum/
-public class Problem5_LC15_3Sum {
+public class Problem05_LC15_3Sum {
     static public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums);

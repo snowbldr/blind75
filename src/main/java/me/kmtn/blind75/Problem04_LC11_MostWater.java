@@ -3,7 +3,7 @@ package me.kmtn.blind75;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 //https://leetcode.com/problems/container-with-most-water/
-public class Problem4_LC11_MostWater {
+public class Problem04_LC11_MostWater {
     static public int maxArea(int[] height) {
         int maxArea = 0;
         int l = 0, r = height.length - 1;

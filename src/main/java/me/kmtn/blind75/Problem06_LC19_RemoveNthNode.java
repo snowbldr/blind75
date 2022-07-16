@@ -7,7 +7,7 @@ import static me.kmtn.blind75.ListNode.linkedList;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 //https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-public class Problem6_LC19_RemoveNthNode {
+public class Problem06_LC19_RemoveNthNode {
     static  ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0, head),
                  left = dummy,

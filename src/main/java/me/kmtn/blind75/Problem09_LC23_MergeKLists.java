@@ -10,7 +10,7 @@ import static me.kmtn.blind75.ListNode.linkedList;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 //https://leetcode.com/problems/merge-k-sorted-lists/
-public class Problem9_LC23_MergeKLists {
+public class Problem09_LC23_MergeKLists {
     static ListNode mergeKListsPQ(ListNode[] lists) {
         ListNode dummy = new ListNode();
         ListNode head = dummy;
